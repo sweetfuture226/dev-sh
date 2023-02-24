@@ -1,0 +1,22 @@
+<div wire:ignore class="w-full">
+    <select class="form-select select2" data-minimum-results-for-search="Infinity" data-placeholder="{{__('Select your option')}}" {{ $attributes }}>
+        <option></option>
+            @foreach($messages as $key => $item)
+                <option value="{{$item->id}}">{{$item->name}}</option>
+            @endforeach
+    </select>
+</div>
+
+    <script>
+        $(document).ready(function() {
+            $('.select2').select2({
+                placeholder: '{{__('Select your option')}}',
+                allowClear: false
+            });
+            $('.select2').on('change', function (e) {
+                let elementName = $(this).attr('id');
+                var data = $(this).select2("val");
+                @this.set(elementName, data);
+            });
+        });
+    </script>

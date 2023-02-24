@@ -1,0 +1,134 @@
+@media only screen and (max-width: 1199px) {
+.work_process_box:after {transform: inherit;}
+span.file_label_text {padding: 18px 50px;}
+.book_call_talk_box_title.date_and_time_wrp {padding-right: 4rem;}
+}
+@media only screen and (max-width: 991px) {
+.navbar-toggler-icon {width: 40px;height: 40px;}
+.navbar-toggler {padding: 0;font-size: inherit;border: 0;border-radius: 0;}    
+.navbar {padding: 0;}
+.navbar-nav .nav-link {padding: 10px 0px !important;}
+.navbar-nav .book_call_btn {
+    margin-left: 0;
+    padding-left: 20px !important;
+    display: inline-block;
+    padding-right: 20px !important;
+}
+.main_video_wrp .video_text_wrp h1 {font-size: 28px;line-height: 120%;}
+.main_video_wrp .video_text_wrp p {font-size: 16px;line-height: 130%;}
+.client_logo {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.title_heading h2 {font-size: 45px;line-height: 55px;}
+.video_box_wrp:before {width: 95px;height: 161px;bottom: -50px;}
+.about_wrp .slick-prev {
+    left: 85%;
+}
+.video_box_wrp:after {width: 120px;height: 270px;top: 0;}
+.counter_item {
+    width: 33.333%;
+    margin-bottom: 20px;
+}
+.counter_wrp, .service_wrp {padding: 40px 0;}
+.counter_list {padding: 0;}
+.heading_title,
+.portfolio_wrp .heading_title, .cleint_review_wrp .heading_title {font-size: 40px;line-height: 100%;padding-bottom: 40px;}
+.recent_project_list{padding-top: 0 !important;}
+.col-revers{flex-direction: column-reverse;}
+.recent_project_pic{padding-bottom: 30px;}
+.recent_project_desc h1 {font-size: 28px;}
+.recent_project_desc > h2 {font-size: 32px;line-height: 40px;}
+.team_desc a {display: block;}
+.recent_project_list,
+.work_process_wrp, .cleint_review_wrp,
+.book_call_wrp, .footer_top , .book_call_talk_wrp{padding: 40px 0;}
+.service_wrp{margin-bottom: 40px;}
+.services_slide .slick-next {
+    right: 85%;
+}
+.services_slide_item h2 {font-size: 22px;}
+.services_slide_item a {font-size: 18px;margin-top: 15px;}
+.work_process_wrp h2{font-size: 40px;line-height: 50px;padding-bottom: 30px;}
+.work_process_box {margin-top: 50px;}
+.work_process_box:after {width: 95px;height: 75px;top: -80px;right: 0;}
+.work_process_item h3 {font-size: 30px;padding-bottom: 20px;}
+.work_process_item.teamwork, .work_process_item.create {top: inherit;left: inherit;}
+.work_process_wrp a, .portfolio_wrp .seemore_link {font-size: 18px;}
+.technology_wrp {padding: 40px 0;margin-top: 40px;}
+.technology_list_icon {width: 100px;height: 100px;margin: 10px 10px;}
+.cleint_review_item p {font-size: 16px;}
+.cleint_review_title strong {font-size: 22px;}
+.cleint_review_title label {font-size: 18px;}
+.cleint_review_pic { width: 60px;height: 60px;}
+.cleint_review_title {padding-left: 75px;}
+.cleint_review_item {margin-bottom: 30px;}
+.cleint_review_wrp:before {width: 45px;height: 130px;top: 40%;}
+.cleint_review_wrp:after {width: 70px;height: 140px;top: 40%;}
+.book_call_box h2 {font-size: 28px;}
+.book_call_box a {margin-top: 20px;}
+.book_call_talk_box_title.date_and_time_wrp {padding-right: 0;}
+}
+@media only screen and (max-width: 767px) {
+.client_slider_wrp .item {
+        margin-left: 0;
+    }
+
+}
+@media only screen and (max-width: 575px) {
+.counter_list {display: block;}
+.counter_item {width: 100%;}
+.counter_pic {width: 45px;height: 45px;}
+.counter_desc {padding-left: 60px;}
+.counter_desc h3 {font-size: 28px;line-height: 32px;}
+.heading_title, .portfolio_wrp .heading_title, .cleint_review_wrp .heading_title {font-size: 34px;padding-bottom: 25px;}
+.recent_project_desc > h2 {font-size: 26px;line-height: 30px;}
+.recent_project_desc h1 { font-size: 24px;}
+.recent_project_list, .work_process_wrp, .cleint_review_wrp, .book_call_wrp, .footer_top {
+    padding: 20px 0;
+}
+.services_slide .slick-next {right: 0;}
+.work_process_wrp h2 {font-size: 30px;line-height: 36px;padding-bottom: 25px;}
+.client_logo_pic {
+    display: block;
+    width: 100%;
+}
+.client_logo_pic img {
+    display: block;
+}
+.video_box_wrp button > img {
+    width: 70px;
+    height: 70px;
+}
+.title_heading h2 {
+    font-size: 30px;
+    line-height: 50px;
+}
+.about_wrp .title_heading h2{margin-bottom: 50px;}
+.about_wrp .slick-prev, .about_wrp .slick-next {top: -30px;width: 40px;height: 40px;}
+.about_wrp .slick-next:before,.about_wrp .slick-prev:before {width: 20px;height: 20px;}    
+.about_wrp .slick-prev {
+    left: 10px;
+}
+.about_wrp .slick-next {
+    right: 10px;
+}
+.book_call_box {padding: 20px;}
+.book_call_box {text-align: center;}
+.book_call_box h2 {font-size: 23px;}
+ul.social_media li {margin-right: 6px;}
+.footer_quick_link h3 {padding-bottom: 10px;}
+.copyright .text-right, .copyright p {
+    text-align: center !important;
+    display: block;
+    padding: 0;
+    width: 100%;
+}
+.book_call_talk_box_title h3 {font-size: 21px;}
+.book_call_talk_box {padding: 15px;}
+.time_select_wrp {padding: 20px 0;}
+.file_label_text p strong {font-size: 11px;line-height: 15px;}
+.file_label_text p {font-size: 11px;line-height: 15px;}
+span.file_label_text {padding: 18px 15px;}
+.file_label_text img {top: 0;}
+}
